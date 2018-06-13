@@ -1,0 +1,20 @@
+{
+  "name": "handleimage",
+  "version": "1.0.0",
+  "description": "handleimage",
+  "main": "gulpfile.js",
+  "scripts": {
+    "hd": "gulp img"
+  },
+  "config": {
+    "path": "./",
+    "vs": "v2_7_0_"
+  },
+  "author": "lucien",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-smushit": "^1.2.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
