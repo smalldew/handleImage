@@ -27,3 +27,12 @@
 处理后的图片会输出到‘handleAfterImages’这个文件夹下（文件名为：1.0.0_icon_head.png）
 ```
 				
+>可能遇到的问题
+
+```
+“var cwd = process.cwd(); Error: No such file or directory”
+如果遇到以上报错请在终端工具，输入以下命令（清除npm缓存）
+sudo npm cache clean -f
+然后在对应文件下安装
+sudo npm install
+```
